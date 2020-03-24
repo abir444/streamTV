@@ -8,9 +8,17 @@ import './App.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 function App() {
+
+  // const changeVideo = () =>{
+  //   changeSelecttedVideo();
+  // }
+
+
+
+
   return (
     <Layout>
-      <Header style={{ background: 'red', padding: 0 }} />
+
 
     <Layout>
       {/* // content */}

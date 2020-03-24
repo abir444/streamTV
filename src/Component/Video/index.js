@@ -3,7 +3,9 @@ import YouTube from 'simple-youtube-api';
 import { Layout, Menu, Icon } from 'antd';
 import '../../App.css';
 import SingleVideo from './SingleVideo';
+import Chanels from './Chanels';
 import SuggestionVideo from './SuggestionVideo';
+
 import config from "../../config"
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -32,7 +34,9 @@ export default  ({preference}) => {
 
 
     return(
+
         <React.Fragment>
+          <Chanels />
     <Sider
       breakpoint="lg"
       collapsedWidth="0"
